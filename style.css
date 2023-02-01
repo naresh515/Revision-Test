@@ -1,0 +1,156 @@
+.navbar-brand span {
+    color: gold;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 35px !important;
+}
+
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    font-size: 14px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+}
+
+.row h3 {
+    font-size: 34px;
+}
+
+.row p {
+    color: white;
+    font-size: 13px;
+}
+
+.btn {
+    font-weight: 500 !important;
+}
+
+.hero p {
+    color: gray;
+}
+
+#carouselExampleCaptions {
+    margin-top: 100px;
+}
+
+.image {
+    filter: grayscale(100%);
+    box-shadow: 0px 4px 4px #f2dc18;
+}
+
+.image:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+.row-brand {
+    font-weight: 500;
+    font-size: 30px !important;
+    text-decoration: none;
+}
+
+.row-brand span {
+    color: gold;
+}
+
+.row-brand strong {
+    color: white;
+}
+
+.row p {
+    color: gray;
+}
+
+.row h6 {
+    color: black !important;
+}
+
+.image {
+    width: 260px;
+}
+
+.foot {
+    opacity: 0.9;
+}
+
+.foot h6 {
+    color: gray !important;
+}
+
+.image2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    filter: grayscale(100%);
+}
+
+.image2:hover {
+    filter: none;
+}
+
+.footer_iconbox {
+    background-color: #433c3c;
+    padding: 3px 3px 3px 3px;
+}
+
+.footer_iconbox i {
+    color: gray;
+}
+
+.carousel-inner {
+    padding: 20px 0px;
+}
+
+.col-lg-6.col-md-12.ps-5.pt-5 {
+    padding-top: 8rem !important;
+    padding-left: 10rem !important;
+}
+
+.navbar {
+    margin-top: 25px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+
+@media screen and (min-width:300px) and (max-width:1000px) {
+    .carousel-inner {
+        padding: 20px;
+    }
+
+    button .btn {
+        margin-top: 10px;
+    }
+
+    .img-fluid {
+        padding-top: 35px;
+        width: 500px;
+    }
+
+    .col-lg-6.col-md-12.ps-5.pt-5 {
+        padding-left: 5rem !important;
+        padding-top: 3rem !important;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .navbar {
+        margin-top: 0px !important;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .image {
+        margin-left: 45px;
+    }
+}
